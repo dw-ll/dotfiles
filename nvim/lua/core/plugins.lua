@@ -26,11 +26,14 @@ return require('packer').startup(function(use)
   use "rafamadriz/friendly-snippets"
   use 'akinsho/nvim-bufferline.lua'
   use 'dinhhuy258/git.nvim'
+  use 'lewis6991/gitsigns.nvim'
   use 'jose-elias-alvarez/null-ls.nvim'
+  use 'MunifTanjim/prettier.nvim'
   use 'nvimdev/lspsaga.nvim'
   use 'folke/zen-mode.nvim'
   use 'onsails/lspkind-nvim'
   use 'github/copilot.vim'
+  use "sindrets/diffview.nvim"
 
   use({
     'williamboman/mason.nvim',
